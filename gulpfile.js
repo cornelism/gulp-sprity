@@ -14,5 +14,5 @@ gulp.task('default', function () {
     cssPath: '../img',
     name: 'sprite',
   })
-  .pipe(gulpif('*.png', gulp.dest('./dist/img/'), gulp.dest('./dist/css/')))
+  .pipe(gulpif('*.{png,jpg}', gulp.dest('./dist/img/'), gulp.dest('./dist/css/')))
 });

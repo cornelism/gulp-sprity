@@ -1,5 +1,12 @@
 # gulp-sprity
 
 ```shell
-npm install && gulp
+npm install
+```
+
+create a folder and add .png images
+
+then:
+```shell
+gulp
 ```
