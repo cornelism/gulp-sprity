@@ -6,7 +6,11 @@ var sprity = require('sprity');
 gulp.task('default', function () {
   return sprity.src({
     src: './src/**/*.{png,jpg}',
-    style: './dist/sprite.css',
+    style: './dist/_sprites.scss',
+    margin: 0,
+    split: true,
+    cssPath: '../img',
+    name: 'sprite',
     // ... other optional options
     // for example if you want to generate scss instead of css
     processor: 'sass', // make sure you have installed sprity-sass

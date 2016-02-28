@@ -1,12 +1,12 @@
 {
   "name": "gulp-sprity",
   "version": "1.0.0",
-  "description": "",
+  "description": "package for creating sprites",
   "main": "",
   "scripts": "{
     "test": "echo \"Error: no test specified\" && exit 1"
   }",
-  "author": "@cornelis",
+  "author": "@cornelism",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
