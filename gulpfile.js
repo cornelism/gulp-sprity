@@ -10,7 +10,7 @@ gulp.task('default', function () {
     margin: 0,
     split: true,
     cssPath: '../img',
-    name: 'sprite',
+    name: 'test',
     // ... other optional options
     // for example if you want to generate scss instead of css
     processor: 'sass', // make sure you have installed sprity-sass

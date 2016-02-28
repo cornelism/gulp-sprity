@@ -1,9 +1,5 @@
-# sprity-cli
-
-install globally
+# gulp-sprity
 
 ```shell
-npm install
-
-gulp
+npm install && gulp
 ```
