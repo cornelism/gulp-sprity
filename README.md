@@ -1,12 +1,11 @@
 # gulp-sprity
 
+install dependencies
 ```shell
 npm install
 ```
 
-create a folder and add .png images
-
-then:
+check src file, then:
 ```shell
 gulp
 ```
