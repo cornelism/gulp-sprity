@@ -13,6 +13,7 @@ gulp.task('default', function () {
     split: true,
     cssPath: '../img',
     name: 'sprite',
+    prefix: 'sprite',
   })
   .pipe(gulpif('*.{png,jpg}', gulp.dest('./dist/img/'), gulp.dest('./dist/css/')))
 });
