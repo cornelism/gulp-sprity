@@ -7,13 +7,12 @@ gulp.task('default', function () {
   return sprity.src({
     src: './src/**/*.{png,jpg}',
     style: './dist/_sprites.scss',
+    // ... other optional options
+    processor: 'sass',
     margin: 0,
     split: true,
     cssPath: '../img',
-    name: 'test',
-    // ... other optional options
-    // for example if you want to generate scss instead of css
-    processor: 'sass', // make sure you have installed sprity-sass
+    name: 'sprite',
   })
   .pipe(gulpif('*.png', gulp.dest('./dist/img/'), gulp.dest('./dist/css/')))
 });
